@@ -1,0 +1,36 @@
+将项目上传到GitHub上的方法
+1. 登录github并创建一个仓库
+
+2. 安装git客户端
+	2.1 下载git
+		官网：git-scm.com/download/
+		镜像：https://npm.taobao.org/mirrors/git-for-windows/?utm_source=qq&utm_medium=social&utm_oi=793691189428776960
+	2.2 安装git
+	2.3 绑定用户
+		git config --global user.name wangyunzhen123
+		git config --global user.email 1315227000@qq.com
+
+3. 设置ssh密钥
+	3.1 生成ssh
+		cd ~/.ssh
+		ls
+		找到.pub结尾的文件
+			3.1.1 如果没有生成 ssh-keygen -t rsa -C 1315227000@qq.com
+	3.2 为github配置ssh密钥
+		settings - SSH and GPG keys
+
+
+
+前面三步是之前的准备已经配置完成，每次上传文件时打开文件所在路径，右键点击git bush按照以下步骤开始完成
+
+4. 上传项目到github
+	4.1 创建本地项目
+	4.2 执行指令
+		git init 
+		git add + 文件名称
+		git commit -m update
+
+	4.3 关联github仓库
+		git remote add origin https://github.com/wangyunzhen123/codeforces       GitHub上的repository的地址
+	4.4 上传本地代码
+		git push -u origin master
