@@ -22,8 +22,9 @@
     设字符串 text1和特性t的长度分别为m和n，创建m+1行n+1列的二维数组的dp，其中dp[i][j]表示text1[0:i]和text2[0:j]的最长公共子序列的长度，上述表示中，text1[0:i]和text2[0:j]表示长度为i和j的text1和text2的长度i和j
     的前缀
 
- 3. 
+ 3. ![enter image description here](C:%5CUsers%5Cdell%5CDesktop%5C%1.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDAxMTk4NiwxMjU4ODk1ODQzXX0=
+eyJoaXN0b3J5IjpbMjY2MzY4MTY0LDE2ODAwMTE5ODYsMTI1OD
+g5NTg0M119
 -->
