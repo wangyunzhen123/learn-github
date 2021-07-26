@@ -17,12 +17,12 @@
 
 解题：
 
- 1. 确假设字符串 text1和特性t的长度分别为m和n，创建m+1行n+1列的二维数组的dp，其中dp[i][j]表示t
+ 1. List item
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwODUyMjcyLDEyNTg4OTU4NDNdfQ==
+eyJoaXN0b3J5IjpbNDE5MzA1MjEsMTI1ODg5NTg0M119
 -->
