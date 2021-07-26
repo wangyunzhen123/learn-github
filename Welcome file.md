@@ -17,21 +17,19 @@
 
 解题：
 
- 1. 确定dp数组以及下标的含义
- 
-假设字符串 \textit{text}_1text 
-1
-​
+ 1. 确假设字符串 text1和特性t的长度分贝为
   和 \textit{text}_2text 
 2
 ​
-  的长度分别为 mm 和 nn，创建 m+1m+1 行 n+1n+1 列的二维数组 \textit{dp}dp，其中 \textit{dp}[i][j]dp[i][j] 表示 \textit{text}_1[0:i]text 
+  的长度分别为 mm 和 nn，创建 m+1m+1 行 n+1n+1 列的二维数组 textit{dp}dp，其中 textit{dp}[i][j]dp[i][j] 表示 \textit{text}_1[0:i]text 
 1
  [0:i] 和 \textit{text}_2[0:j]text 
 2
 ​
- [0:j] 的最长公共子序列的长度。
+ [0:j] 的最长公共子序列的长度
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTA3NTA2MjQsMTI1ODg5NTg0M119
+eyJoaXN0b3J5IjpbLTIxNDQ4MzU1MTEsMTI1ODg5NTg0M119
 -->
