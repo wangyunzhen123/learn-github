@@ -17,12 +17,12 @@
 
 解题：
 
- 1. List item
+ 1. 确定dp数组（dp table）以及下标的含义：
+ 
+    设字符串 text1和特性t的长度分别为m和n，创建m+1行n+1列的二维数组的dp，其中dp[i][j]表示text1[0:i]和text2[0:j]的最长公共子序列的长度，上述表示中，text1[0:i]和text2[0:j]
 
-
-
-
+ 3. List item
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5MzA1MjEsMTI1ODg5NTg0M119
+eyJoaXN0b3J5IjpbMTk0MTA1NDI5NywxMjU4ODk1ODQzXX0=
 -->
